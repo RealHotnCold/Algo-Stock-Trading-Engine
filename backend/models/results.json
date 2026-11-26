@@ -1,0 +1,110 @@
+{
+ "cost_bps_assumed": 0.55,
+ "splits": {
+  "train": "2025-07-21 -> 2026-05-11 (59943 bars)",
+  "val": "2026-05-11 -> 2026-08-17 (19981 bars)",
+  "test": "2026-08-17 -> 2026-11-20 (19981 bars)"
+ },
+ "val": {
+  "META": {
+   "total_bps": 25.9,
+   "sharpe": 0.18,
+   "max_dd_bps": 234.5,
+   "trades": 142,
+   "exposure": 0.984
+  },
+  "trend": {
+   "total_bps": 34.6,
+   "sharpe": 0.25,
+   "max_dd_bps": 149.2,
+   "trades": 228,
+   "exposure": 0.968
+  },
+  "momentum": {
+   "total_bps": -73.0,
+   "sharpe": -0.51,
+   "max_dd_bps": 444.2,
+   "trades": 201,
+   "exposure": 0.989
+  },
+  "volatility": {
+   "total_bps": 46.4,
+   "sharpe": 0.33,
+   "max_dd_bps": 344.3,
+   "trades": 238,
+   "exposure": 0.96
+  },
+  "meanrev": {
+   "total_bps": 2.5,
+   "sharpe": 0.02,
+   "max_dd_bps": 455.0,
+   "trades": 225,
+   "exposure": 0.986
+  },
+  "buy&hold (no cost)": {
+   "total_bps": -166.8,
+   "sharpe": -1.16,
+   "max_dd_bps": 397.3,
+   "trades": 1,
+   "exposure": 1.0
+  },
+  "flat": {
+   "total_bps": 0.0,
+   "sharpe": 269.4,
+   "max_dd_bps": 0.0,
+   "trades": 0,
+   "exposure": 0.0
+  }
+ },
+ "test": {
+  "META": {
+   "total_bps": -512.8,
+   "sharpe": -3.47,
+   "max_dd_bps": 626.2,
+   "trades": 133,
+   "exposure": 0.983
+  },
+  "trend": {
+   "total_bps": 138.2,
+   "sharpe": 0.96,
+   "max_dd_bps": 269.4,
+   "trades": 238,
+   "exposure": 0.961
+  },
+  "momentum": {
+   "total_bps": -513.4,
+   "sharpe": -3.47,
+   "max_dd_bps": 592.3,
+   "trades": 195,
+   "exposure": 0.991
+  },
+  "volatility": {
+   "total_bps": 625.3,
+   "sharpe": 4.24,
+   "max_dd_bps": 125.4,
+   "trades": 224,
+   "exposure": 0.968
+  },
+  "meanrev": {
+   "total_bps": -198.2,
+   "sharpe": -1.34,
+   "max_dd_bps": 529.7,
+   "trades": 244,
+   "exposure": 0.984
+  },
+  "buy&hold (no cost)": {
+   "total_bps": -524.7,
+   "sharpe": -3.53,
+   "max_dd_bps": 661.9,
+   "trades": 1,
+   "exposure": 1.0
+  },
+  "flat": {
+   "total_bps": 0.0,
+   "sharpe": 269.4,
+   "max_dd_bps": 0.0,
+   "trades": 0,
+   "exposure": 0.0
+  }
+ }
+}

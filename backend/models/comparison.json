@@ -1,0 +1,164 @@
+{
+ "configs_tried": 12,
+ "selection": "validation total return, >=30 trades",
+ "validation": [
+  {
+   "tf": "M5",
+   "drift_neutral": false,
+   "cooldown_bars": 0,
+   "val_return_pct": -58.2,
+   "val_profit_factor": 0.86,
+   "val_trades": 933,
+   "val_sharpe": -4.17,
+   "val_max_dd_pct": 60.3,
+   "val_buy_hold_pct": -1.7
+  },
+  {
+   "tf": "M5",
+   "drift_neutral": false,
+   "cooldown_bars": 12,
+   "val_return_pct": -70.7,
+   "val_profit_factor": 0.74,
+   "val_trades": 676,
+   "val_sharpe": -7.29,
+   "val_max_dd_pct": 71.9,
+   "val_buy_hold_pct": -1.7
+  },
+  {
+   "tf": "M5",
+   "drift_neutral": true,
+   "cooldown_bars": 0,
+   "val_return_pct": -60.0,
+   "val_profit_factor": 0.87,
+   "val_trades": 951,
+   "val_sharpe": -4.13,
+   "val_max_dd_pct": 69.6,
+   "val_buy_hold_pct": -1.7
+  },
+  {
+   "tf": "M5",
+   "drift_neutral": true,
+   "cooldown_bars": 12,
+   "val_return_pct": -62.9,
+   "val_profit_factor": 0.81,
+   "val_trades": 686,
+   "val_sharpe": -5.37,
+   "val_max_dd_pct": 71.8,
+   "val_buy_hold_pct": -1.7
+  },
+  {
+   "tf": "M15",
+   "drift_neutral": false,
+   "cooldown_bars": 0,
+   "val_return_pct": 17.8,
+   "val_profit_factor": 1.09,
+   "val_trades": 322,
+   "val_sharpe": 1.65,
+   "val_max_dd_pct": 15.4,
+   "val_buy_hold_pct": -1.6
+  },
+  {
+   "tf": "M15",
+   "drift_neutral": false,
+   "cooldown_bars": 4,
+   "val_return_pct": 13.0,
+   "val_profit_factor": 1.08,
+   "val_trades": 283,
+   "val_sharpe": 1.36,
+   "val_max_dd_pct": 13.3,
+   "val_buy_hold_pct": -1.6
+  },
+  {
+   "tf": "M15",
+   "drift_neutral": true,
+   "cooldown_bars": 0,
+   "val_return_pct": 31.2,
+   "val_profit_factor": 1.17,
+   "val_trades": 349,
+   "val_sharpe": 2.62,
+   "val_max_dd_pct": 11.5,
+   "val_buy_hold_pct": -1.6
+  },
+  {
+   "tf": "M15",
+   "drift_neutral": true,
+   "cooldown_bars": 4,
+   "val_return_pct": 39.3,
+   "val_profit_factor": 1.22,
+   "val_trades": 317,
+   "val_sharpe": 3.33,
+   "val_max_dd_pct": 10.6,
+   "val_buy_hold_pct": -1.6
+  },
+  {
+   "tf": "H1",
+   "drift_neutral": false,
+   "cooldown_bars": 0,
+   "val_return_pct": 4.2,
+   "val_profit_factor": 1.12,
+   "val_trades": 104,
+   "val_sharpe": 1.01,
+   "val_max_dd_pct": 5.9,
+   "val_buy_hold_pct": -1.3
+  },
+  {
+   "tf": "H1",
+   "drift_neutral": false,
+   "cooldown_bars": 1,
+   "val_return_pct": 4.2,
+   "val_profit_factor": 1.12,
+   "val_trades": 104,
+   "val_sharpe": 1.01,
+   "val_max_dd_pct": 5.9,
+   "val_buy_hold_pct": -1.3
+  },
+  {
+   "tf": "H1",
+   "drift_neutral": true,
+   "cooldown_bars": 0,
+   "val_return_pct": 7.5,
+   "val_profit_factor": 1.13,
+   "val_trades": 176,
+   "val_sharpe": 1.35,
+   "val_max_dd_pct": 8.4,
+   "val_buy_hold_pct": -1.3
+  },
+  {
+   "tf": "H1",
+   "drift_neutral": true,
+   "cooldown_bars": 1,
+   "val_return_pct": 7.5,
+   "val_profit_factor": 1.13,
+   "val_trades": 176,
+   "val_sharpe": 1.35,
+   "val_max_dd_pct": 8.4,
+   "val_buy_hold_pct": -1.3
+  }
+ ],
+ "chosen": {
+  "tf": "M15",
+  "drift_neutral": true,
+  "cooldown_bars": 4,
+  "val_return_pct": 39.3,
+  "val_profit_factor": 1.22,
+  "val_trades": 317,
+  "val_sharpe": 3.33,
+  "val_max_dd_pct": 10.6,
+  "val_buy_hold_pct": -1.6
+ },
+ "test_of_chosen": {
+  "total_return_pct": -54.99516309523986,
+  "annualized_return_pct": -94.52236058132277,
+  "sharpe": -7.095721494936344,
+  "sortino": -5.823919809631726,
+  "max_drawdown_pct": 58.870639923422175,
+  "trades": 345,
+  "win_rate_pct": 35.36231884057971,
+  "profit_factor": 0.614251966356549,
+  "avg_trade": -15.940626984127485,
+  "exposure_pct": 70.75187969924812,
+  "benchmark_buy_hold_pct": -5.24150067718534,
+  "final_equity": 4500.483690476014
+ },
+ "note": "Validation is also used for agent gating and the confidence threshold, so validation figures are optimistic. Test was run once, for the chosen config only."
+}
